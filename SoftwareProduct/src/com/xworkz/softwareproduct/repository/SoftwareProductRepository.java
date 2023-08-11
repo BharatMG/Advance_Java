@@ -18,6 +18,7 @@ public interface SoftwareProductRepository {
 
 	boolean deleteBySoftwareName(String softwateName);
 
-	boolean updateById(int id,SoftwareProductDTO dto);
+	public boolean updateById(int id, String userName, String email, long phoneNumber, String softwateName, int version,
+			int doe, String password, double price, double osVersion);
 
 }

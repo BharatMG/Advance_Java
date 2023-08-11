@@ -191,34 +191,33 @@ public class SoftwareProductRepositoryImpl implements SoftwareProductRepository 
 	}
 
 	@Override
-	public boolean updateById(int id, SoftwareProductDTO dto) {
-		System.out.println("update by id");
+	public boolean updateById(int id, String userName, String email, long phoneNumber, String softwateName, int version,
+			int doe, String password, double price, double osVersion) {
+		System.out.println("update by id..");
 		try {
 			Connection connection = DriverManager.getConnection(util.url, util.userName, util.password);
 			System.out.println("connection established " + connection);
-			String update = "update softwareproduct set userName=?,email=?,phoneNumber=?,softwateName=?,version=?,doe=?,password=?,price=?,osVersion=? where id=?";
-			PreparedStatement ps = connection.prepareStatement(update);
-		ps.setString(1,dto.getUserName());
-		ps.setString(2,dto.getEmail());
-		ps.setLong(3,dto.getPhoneNumber());
-		ps.setString(4, dto.getSoftwateName());
-		ps.setInt(5, dto.getVersion());
-		ps.setInt(6, dto.getDoe());
-		ps.setString(7, dto.getPassword());
-		ps.setDouble(8, dto.getPrice());
-		ps.setDouble(9,dto.getOsVersion());
-		ps.setInt(10, id);
-	int up	=ps.executeUpdate();
-	if (up>0) {
-		System.out.println("successfully update by id");
-	}else {
-		System.out.println("not updated..");
-	}
+			String up = "update softwareproduct set userName=?,email=?,phoneNumber=?,softwateName=?,version=?,doe=?,password=?,price=?,osVersion=? where id=?";
+			PreparedStatement ps=connection.prepareStatement(up);
+			ps.setString(1, userName);
+			ps.setString(2, email);
+			ps.setLong(3, phoneNumber);
+			ps.setString(4, softwateName);
+			ps.setInt(5, version);
+			ps.setInt(6, doe);
+			ps.setString(7, password);
+			ps.setDouble(8,price);
+			ps.setDouble(9, osVersion);
+			ps.setInt(10, id);
+			int add=ps.executeUpdate();
+			if (add>0) {
+				System.out.println("successfully added"+add);
+			}else {
+				System.out.println("invalid..");
+			}
 		} catch (SQLException e) {
-
 			e.printStackTrace();
 		}
-
-		return false;
+		return true;
 	}
 }

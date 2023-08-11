@@ -50,36 +50,41 @@ public class SoftwareProductServiceImpl implements SoftwareProductService {
 	public boolean searchByversion(int version) {
 		if (version != 0) {
 			boolean search = repository.searchByversion(version);
-return true;
-		}else {
-		return false;
+			return true;
+		} else {
+			return false;
+		}
 	}
-}
 
 	@Override
 	public boolean searchBySoftwateName(String softwateName) {
-		if (softwateName!=null) {
-			boolean search=repository.searchBySoftwateName(softwateName);
-			
+		if (softwateName != null) {
+			boolean search = repository.searchBySoftwateName(softwateName);
+
 		}
 		return false;
 	}
 
 	@Override
 	public boolean deleteBySoftwareName(String softwateName) {
-		if (softwateName!=null) {
-			boolean delete=repository.deleteBySoftwareName(softwateName);
+		if (softwateName != null) {
+			boolean delete = repository.deleteBySoftwareName(softwateName);
 			return true;
-		}else {
-		return false;
+		} else {
+			return false;
+		}
 	}
-}
 
 	@Override
-	public boolean updateById(int id,SoftwareProductDTO dto) {
-		if (id!=0  && dto!=null) {
-		boolean update=repository.updateById(id,dto);	
+	public boolean updateById(int id, String userName, String email, long phoneNumber, String softwateName, int version,
+			int doe, String password, double price, double osVersion) {
+		if (id != 0 && userName != null && email != null && phoneNumber != 0 && softwateName != null && version != 0
+				&& doe != 0 && password != null && price != 0 && osVersion != 0) {
+			boolean u = repository.updateById(id, userName, email, phoneNumber, softwateName, version, doe, password,
+					price, osVersion);
+			return true;
+		} else {
+			return false;
 		}
-		return false;
 	}
 }
