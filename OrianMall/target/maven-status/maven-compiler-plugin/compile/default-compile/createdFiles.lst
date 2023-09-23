@@ -1,0 +1,4 @@
+com\xworkz\orianmall\dto\OrianMallDTO.class
+com\xworkz\orianmall\configuration\OrianMallConfiguration.class
+com\xworkz\orianmall\controller\OrianMallController.class
+com\xworkz\orianmall\controller\OrianMallRunner.class
