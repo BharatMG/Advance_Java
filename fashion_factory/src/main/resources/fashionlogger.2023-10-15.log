@@ -1,0 +1,81 @@
+2023-10-15 09:40:16 DEBUG c.x.f.c.FashionFactoryWebInit - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-10-15 09:40:16 INFO  c.x.f.c.FashionFactoryWebInit - logger running F
+2023-10-15 09:40:16 INFO  c.x.f.c.FashionFactoryWebInit - logger running 
+2023-10-15 09:40:16 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2023-10-15 09:40:17 INFO  c.x.f.c.FashionFactoryConfiguration - FashionFactoryConfiguration constructor
+2023-10-15 09:40:17 INFO  c.x.f.c.FashionFactoryConfiguration - LocalContainerEntityManagerFactoryBean started
+2023-10-15 09:40:17 INFO  c.x.f.c.FashionFactoryConfiguration - bean createdorg.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@119eb15
+2023-10-15 09:40:17 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: com.xworkz
+	...]
+2023-10-15 09:40:17 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.3.Final}
+2023-10-15 09:40:17 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-10-15 09:40:17 INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2023-10-15 09:40:17 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2023-10-15 09:40:17 WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-10-15 09:40:17 INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/bmg]
+2023-10-15 09:40:17 INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2023-10-15 09:40:17 INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2023-10-15 09:40:17 INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-10-15 09:40:17 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-10-15 09:40:18 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2023-10-15 09:40:19 INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2fa9b863] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-10-15 09:40:19 INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2023-10-15 09:40:19 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'com.xworkz'
+2023-10-15 09:40:19 INFO  c.x.f.c.FashionFactoryConfiguration - viewResolver bean is created
+2023-10-15 09:40:20 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4308 ms
+2023-10-15 09:52:47 INFO  c.x.f.c.FashionFactoryController - [FashionFactoryDTO(id=1, customerName=vinoda, emailId=bharat@gmail.com, mobileNumber=8553366463, address=SADASHIVA NAGARA), FashionFactoryDTO(id=2, customerName=darshan, emailId=g@gmail.com, mobileNumber=9898989898, address=ckm), FashionFactoryDTO(id=3, customerName=Abhishri, emailId=ab@gmail.com, mobileNumber=8979807689, address=bagalur), FashionFactoryDTO(id=6, customerName=bharat, emailId=t@gmail.com, mobileNumber=8979807689, address=dwd), FashionFactoryDTO(id=7, customerName=lohit, emailId=l@gmail.com, mobileNumber=8979807689, address=pune), FashionFactoryDTO(id=8, customerName=vinaya, emailId=vina@gmail.com, mobileNumber=7411325714, address=vinaya)]
+2023-10-15 12:28:27 DEBUG c.x.f.c.FashionFactoryWebInit - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-10-15 12:28:27 INFO  c.x.f.c.FashionFactoryWebInit - logger running F
+2023-10-15 12:28:27 INFO  c.x.f.c.FashionFactoryWebInit - logger running 
+2023-10-15 12:28:27 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2023-10-15 12:28:28 INFO  c.x.f.c.FashionFactoryConfiguration - FashionFactoryConfiguration constructor
+2023-10-15 12:28:28 INFO  c.x.f.c.FashionFactoryConfiguration - LocalContainerEntityManagerFactoryBean started
+2023-10-15 12:28:28 INFO  c.x.f.c.FashionFactoryConfiguration - bean createdorg.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@24d18d17
+2023-10-15 12:28:28 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: com.xworkz
+	...]
+2023-10-15 12:28:28 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.3.Final}
+2023-10-15 12:28:28 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-10-15 12:28:28 INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2023-10-15 12:28:28 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2023-10-15 12:28:29 WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-10-15 12:28:29 INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/bmg]
+2023-10-15 12:28:29 INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2023-10-15 12:28:29 INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2023-10-15 12:28:29 INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-10-15 12:28:29 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-10-15 12:28:30 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2023-10-15 12:28:32 INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@e56c524] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-10-15 12:28:32 INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2023-10-15 12:28:32 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'com.xworkz'
+2023-10-15 12:28:32 INFO  c.x.f.c.FashionFactoryConfiguration - viewResolver bean is created
+2023-10-15 12:28:32 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5231 ms
+2023-10-15 15:39:22 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'com.xworkz'
+2023-10-15 15:39:22 INFO  o.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/bmg]
+2023-10-15 15:39:26 DEBUG c.x.f.c.FashionFactoryWebInit - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+2023-10-15 15:39:26 INFO  c.x.f.c.FashionFactoryWebInit - logger running F
+2023-10-15 15:39:26 INFO  c.x.f.c.FashionFactoryWebInit - logger running 
+2023-10-15 15:39:26 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+2023-10-15 15:39:27 INFO  c.x.f.c.FashionFactoryConfiguration - FashionFactoryConfiguration constructor
+2023-10-15 15:39:27 INFO  c.x.f.c.FashionFactoryConfiguration - LocalContainerEntityManagerFactoryBean started
+2023-10-15 15:39:27 INFO  c.x.f.c.FashionFactoryConfiguration - bean createdorg.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@50d77b6d
+2023-10-15 15:39:27 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: com.xworkz
+	...]
+2023-10-15 15:39:27 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.3.Final}
+2023-10-15 15:39:27 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-10-15 15:39:27 INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2023-10-15 15:39:27 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2023-10-15 15:39:27 WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2023-10-15 15:39:27 INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/bmg]
+2023-10-15 15:39:27 INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=****}
+2023-10-15 15:39:27 INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2023-10-15 15:39:27 INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2023-10-15 15:39:27 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-10-15 15:39:28 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2023-10-15 15:39:29 INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@16959b6e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2023-10-15 15:39:29 INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2023-10-15 15:39:29 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'com.xworkz'
+2023-10-15 15:39:29 INFO  c.x.f.c.FashionFactoryConfiguration - viewResolver bean is created
+2023-10-15 15:39:29 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3139 ms

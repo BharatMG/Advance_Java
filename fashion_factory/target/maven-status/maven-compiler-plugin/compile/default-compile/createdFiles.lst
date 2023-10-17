@@ -1,0 +1,9 @@
+com\xworkz\fashionfactory\controller\FashionFactoryController.class
+com\xworkz\fashionfactory\service\FashionFactoryServiceImplementation.class
+com\xworkz\fashionfactory\configuration\FashionFactoryWebInit.class
+com\xworkz\fashionfactory\entity\FashionFactoryEntity.class
+com\xworkz\fashionfactory\configuration\FashionFactoryConfiguration.class
+com\xworkz\fashionfactory\repository\FashionFactoryRepositoryImplementation.class
+com\xworkz\fashionfactory\dto\FashionFactoryDTO.class
+com\xworkz\fashionfactory\repository\FashionFactoryRepository.class
+com\xworkz\fashionfactory\service\FashionFactoryService.class
